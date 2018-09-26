@@ -84,13 +84,13 @@ class Arrangement(object):
 
 def main():
   arrangement = Arrangement("first arrangement")
-  arrangement.add_container("chia van", 8)
-  arrangement.add_container("nathan car", 8)
-  arrangement.add_item_to_container('gideon', 'chia van')
-  arrangement.add_item_to_container('gideon luggage', 'chia van')
-  arrangement.add_item_to_container('jeff', 'chia van')
-  arrangement.add_item_to_container('nathan', 'nathan car')
-  arrangement.add_item_to_container('moses', 'nathan car')
+  arrangement.add_container("Jakes van", 8)
+  arrangement.add_container("nathan sedan", 8)
+  arrangement.add_item_to_container('Jakes', 'Jakes van')
+  arrangement.add_item_to_container('Jakes luggage', 'Jakes van')
+  arrangement.add_item_to_container('Chin', 'Jakes van')
+  arrangement.add_item_to_container('Nathan', 'nathan sedan')
+  arrangement.add_item_to_container('Mikey', 'nathan sedan')
 
   print arrangement.build()
 
