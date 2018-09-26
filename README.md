@@ -1,18 +1,38 @@
 # Backend API-Server
 
 
+Helping people to Arrange items in an efficient way.
+
+
+## Installation
+
+Installation is super friendly using `pip`
+
+```
+$ pip install 
+$ sudo mongod 
+$ python app.py
+
+```
+
+## Documentation
+
+* [Test](./test)
+
+
 This is the layout of the data of json object.
 Arrangement JSON Object
-{id: a_,
- car_name: _,
- car_owner: _,
- users: [_ids_],
- items: [_item_objects_],
- containers: [_container_objects_],
- is_deleted: _,
- snapshots: [_snapshot_objects_],
- timestamp: _
-}
+# Arrangement: 
+# {id: a_,
+#  name: _,
+#  owner: _,
+#  users: [_ids_],
+#  items: [_item_objects_],
+#  containers: [_container_objects_],
+#  is_deleted: _,
+#  timestamp: _,
+#  snapshots: [_snapshot_objects_]
+# }
 
 API routes for /GET and /POST using python and MongoDB. I include the API specs in this document["https://www.evernote.com/client/snv?noteGuid=befbdd2d-de62-4234-b4f9-24e55cedd5ac&noteKey=eeba35063fe77bbb&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs296%2Fsh%2Fbefbdd2d-de62-4234-b4f9-24e55cedd5ac%2Feeba35063fe77bbb"]
 
@@ -85,6 +105,6 @@ Example of the Arrangement JSON object:
 }
 
 
-Postman Collection:
+## Postman Collection:
 https://www.getpostman.com/collections/4755f28c743b47535215
 
